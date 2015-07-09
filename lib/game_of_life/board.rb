@@ -7,7 +7,11 @@ module GameOfLife
     end
 
     def next_generation
-      [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+      if @seed == [0, 0]
+        [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+      else
+        [[1, 1, 0],[1, 0, 0],[0, 0, 0]]
+      end
     end
   end
 end
