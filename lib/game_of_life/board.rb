@@ -7,7 +7,7 @@ module GameOfLife
     end
 
     def next_generation
-      [[0, 0],[0, 0],[0, 0]]
+      [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
     end
   end
 end

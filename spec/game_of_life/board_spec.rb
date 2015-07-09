@@ -7,7 +7,7 @@ module GameOfLife
       columns = 3
       seed = [0, 0]
       board = Board.new(rows, columns, seed)
-      expect(board.next_generation).to eq([[0, 0],[0, 0],[0, 0]])
+      expect(board.next_generation).to eq([[0, 0, 0],[0, 0, 0],[0, 0, 0]])
     end
   end
 end
